@@ -1,0 +1,19 @@
+12.Sound_Player
+using UnityEngine;
+using System.Collections;
+
+public class Sound_Player : MonoBehaviour {
+
+	
+	public AudioClip[] Sound;
+	
+	
+	
+	public void SoundPlay(int SoundNumber){
+         
+         audio.clip = Sound[SoundNumber];
+         audio.Play();
+		
+    }
+	
+}
